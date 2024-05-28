@@ -7,7 +7,7 @@ function DownloadAds() {
     <div className='download_images flex'>
         <img 
             src={require("../image/App Store.png")} alt="" 
-            className={downloadStyle}
+            className={downloadStyle + ` mr-[2rem]`}
         />
 
         <img 
