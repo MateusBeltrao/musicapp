@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Experience from './components/Experience'
+import Search from './components/Search'
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Header></Header>
       <Hero></Hero>
       <Experience></Experience>
+      <Search></Search>
     </div>
     
   )
